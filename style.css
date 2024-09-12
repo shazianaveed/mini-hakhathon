@@ -1,0 +1,130 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+@media (max-width: 320px){
+.btn{
+position: absolute;
+right: 0;
+}
+ }
+.img1{
+position: absolute;
+right: 20%;
+top: 120px;
+height: 300px;
+width: 300px;
+}
+
+
+.id{
+    margin: 50px;
+}
+.id2{
+    padding: 8px;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+}
+.id3>img{
+    height: 60px;
+    width: 60px;
+    margin: 70px;
+
+}
+.btn2{
+    background-color: greenyellow;
+    border: none;
+    width: 70px;
+    font-weight: bold;
+    position: absolute;
+    left:300px;
+
+}
+
+.id4{
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+@media (max-width: 320px){
+.card{
+    height: 200px;
+    width: 400px;
+}
+ }
+.card-body{
+    background-color: rgb(229, 225, 225);
+    border-radius: 10px;
+}
+.box{
+    height: 200px;
+    width: 400px;
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card1 {
+    width: 40%;
+    height: 350px;
+    background: #F3F3F3;
+    display: flex;
+    padding: 3rem 2rem;
+    border-radius: 2rem;
+}
+
+.card1-content h1 {
+    width: 20rem;
+    background: #B9FF66;
+    margin-right: 5rem;
+    border-radius: 0.8rem;
+}
+.card2 {
+    width: 40%;
+    height: 350px;
+    background: #B9FF66;
+    display: flex;
+    padding: 3rem 2rem;
+    border-radius: 2rem;
+}
+
+.card2-content h1 {
+    width: 20rem;
+    background: #fff;
+    margin-right: 5rem;
+    border-radius: 0.8rem;
+}
+
+.accordion-button::after{
+    background-image: none;
+    content: "\2b";
+    font-family:fontawesome;
+    width: auto;
+  
+}
+.card-img{
+    height: 100px;
+    width: 50px;
+ 
+
+}
+.card-img1{
+    height: 150px;
+    width: 80px;
+}
+.btn4{
+    background-color: #B9FF66;
+    border: none;
+}
+.id8{
+    display: flex;
+align-items: baseline;
+gap: 20px;
+padding: 20px;
+}
